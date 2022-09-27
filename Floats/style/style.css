@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    background-image: linear-gradient(to top, black, rgb(33, 33, 99));
+    border: 1px solid white;
+    height: 180px;    
+}
+
+div.img {
+    height: 180px;
+}
+
+.img {
+    float: left; 
+    
+}
+
+.text {
+    color: white;    
+    padding-top: 80px;   
+    float: left;
+}
