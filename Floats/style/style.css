@@ -13,8 +13,14 @@ body {
 
 section {
     background-image: linear-gradient(to top, black, rgb(33, 33, 99));
+    
     border: 1px solid white;
-    height: 180px;    
+    height: 180px; 
+    width: 400px; 
+    padding: 0px;  
+    margin: auto;
+    box-sizing: border-box;
+    clear: both;
 }
 
 div.img {
@@ -22,13 +28,15 @@ div.img {
 }
 
 .img {
-    float: left; 
+    float: left;
+     
     
 }
 
 .text {
-    color: white;    
+    color: white; 
     padding-top: 80px;
     margin-left: 10px;   
-    float: left;
+    float: left;   
+    
 }
